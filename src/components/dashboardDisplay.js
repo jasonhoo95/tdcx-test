@@ -45,7 +45,7 @@ export default function DashboardDisplay() {
 
 
     return (
-        <div className="w-full">
+        <div className="w-full md:px-[120px]">
 
             <ModalPopup toggle={modal} onClose={e => { openModal(false) }} />
             <div className="flex flex-col md:flex-row justify-center">

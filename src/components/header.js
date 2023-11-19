@@ -22,7 +22,7 @@ export default function Header() {
     }, [])
 
     return (
-        <div className={`boxShadow1 fixed h-[72px] md:px-24 w-full  top-0 left-0 bg-white text-blue-600`}>
+        <div className={`boxShadow1 fixed h-[72px] md:px-[120px] w-full  top-0 left-0 bg-white text-blue-600`}>
             <div className="flex items-center md:px-[0px] px-[20px]">
                 <div className="py-[12px] flex items-center">
                     <img width={"48px"} height={"48px"} src="./person.png" />

@@ -39,7 +39,7 @@ export default function Dashboard() {
 
 
             {data && data.length > 0 ?
-                <div className="flex justify-center md:p-24 py-24 h-[100vh]">
+                <div className="flex justify-center py-24 h-[100vh]">
                     {loading ? <CardSkeleton /> : <DashboardDisplay />}
 
 
