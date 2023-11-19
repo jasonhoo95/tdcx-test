@@ -24,8 +24,8 @@ export default function Home() {
     >
 
 
-      <div className={`container-square w-[304px]`}>
-        <div className={`font-bold text-[#537178] mb-[24px]`}>
+      <div className={`container-square w-[304px] rounded-[12px]`}>
+        <div className={`font-bold text-[#537178] mb-[24px] text-[20px]`}>
           Login
         </div>
 

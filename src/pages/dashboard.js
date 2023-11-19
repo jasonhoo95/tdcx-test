@@ -46,7 +46,7 @@ export default function Dashboard() {
 
                 </div>
                 : <div className={`container-square md:w-[304px] flex items-center md:m-auto mt-[80px] w-auto rounded-[12px]`}>
-                    <div className={`font-bold text-[#537178] mb-[24px]`}>
+                    <div className={`font-bold text-[#537178] mb-[24px] text-[20px]`}>
                         You have no task.
                     </div>
 
