@@ -26,7 +26,7 @@ export default function Header() {
             <div className="flex items-center md:px-[0px] px-[20px]">
                 <div className="py-[12px] flex items-center">
                     <img width={"48px"} height={"48px"} src="./person.png" />
-                    <span className='px-2 text-[#6D8187] font-bold text-[16px]'>{name}</span>
+                    <span className='pl-[16px] text-[#6D8187] font-bold text-[16px]'>{name}</span>
 
                 </div>
 

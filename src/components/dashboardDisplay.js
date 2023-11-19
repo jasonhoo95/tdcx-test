@@ -49,7 +49,7 @@ export default function DashboardDisplay() {
 
             <ModalPopup toggle={modal} onClose={e => { openModal(false) }} />
             <div className="flex flex-col md:flex-row justify-center">
-                <div className="container-square md:rounded-[12px] md:mx-3 my-3 w-full md:w-[33.33%]">
+                <div className="container-square md:rounded-[12px] my-3 w-full md:w-[33.33%]">
                     <div className="text-[#537178] font-bold text-[20px]">
                         Tasks Completed
 
@@ -81,7 +81,7 @@ export default function DashboardDisplay() {
                     </ul>
                 </div>
 
-                <div className="container-square justify-center items-center md:rounded-[12px] md:mx-3 my-3 w-full md:w-[33.33%]">
+                <div className="container-square justify-center items-center md:rounded-[12px]  my-3 w-full md:w-[33.33%]">
 
 
                     <div className="blue-pie-chart">
@@ -94,8 +94,8 @@ export default function DashboardDisplay() {
             </div>
 
 
-            <div style={{ padding: '20px' }}>
-                <div className="flex items-center py-3 md:flex-row flex-col">
+            <div >
+                <div className="flex items-center  px-[20px] md:px-[0px] md:pt-3 md:flex-row flex-col">
 
                     <div className="text-[#537178] text-center font-bold text-[20px] mt-3">
                         Tasks
@@ -117,8 +117,8 @@ export default function DashboardDisplay() {
 
                 </div>
 
-                {dataList ? <div className="container-square md:rounded-[12px]">
-                    <div className="md:p-4">
+                {dataList ? <div className="container-square2 md:rounded-[12px] md:mt-[0px] mt-[20px]  p-[10px]">
+                    <div>
                         {dataList && dataList.map((o, key) => {
                             let value = o.name;
                             return (
@@ -138,7 +138,9 @@ export default function DashboardDisplay() {
                                         </div>
                                     </div>
 
-                                    <hr />
+                                    {key == dataList.length - 1 ? null
+                                        : <hr />}
+
                                 </div>
                             )
 
