@@ -97,7 +97,7 @@ export default function DashboardDisplay() {
             <div style={{ padding: '20px' }}>
                 <div className="flex items-center py-3 md:flex-row flex-col">
 
-                    <div className="text-[#537178] text-center font-bold text-[20px] my-3">
+                    <div className="text-[#537178] text-center font-bold text-[20px] mt-3">
                         Tasks
 
                     </div>
