@@ -14,11 +14,7 @@ export default function ModalPopup({ toggle, onClose }) {
     }, [toggle])
 
 
-
-
     const increasePopulation = useBearStore((state) => state.updateList)
-
-
 
     const toggleModal = (e) => {
 
