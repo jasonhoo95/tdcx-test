@@ -117,7 +117,7 @@ export default function DashboardDisplay() {
 
                 </div>
 
-                {dataList ? <div className="container-square2 md:rounded-[12px] md:mt-[0px] mt-[20px]  p-[10px]">
+                {dataList && dataList.length > 0 ? <div className="container-square2 md:rounded-[12px] md:mt-[0px] mt-[20px]  p-[10px]">
                     <div>
                         {dataList && dataList.map((o, key) => {
                             let value = o.name;
