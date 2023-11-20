@@ -105,8 +105,8 @@ export default function DashboardDisplay() {
                     <div className="ml-auto flex  md:w-auto w-full md:flex-row flex-col items-center">
 
                         <div className="relative my-3 md:w-auto w-full">
-                            <input onChange={e => { checkFilter(e.target.value) }} className={` md:w-[244px] w-full bg-[#D9DFEB] text-[14px] rounded-[8px] font py-[11px] px-[30px] md:mx-3 input-text `} placeholder='Search by task name' type="text" />
-                            <img src="./search-solid.png" className="absolute top-[12px]  md:left-[20px] left-[10px] pr-[20px]" />
+                            <input onChange={e => { checkFilter(e.target.value) }} className={` md:w-[244px] w-full bg-[#D9DFEB] text-[14px] rounded-[8px] font py-[11px] px-[40px] md:mx-3 input-text  md:text-left text-center`} placeholder='Search by task name' type="text" />
+                            <img src="./search-solid.png" className="absolute top-[13px]  md:left-[25px] left-[20px] pr-[20px]" />
                         </div>
 
                         <button onClick={e => { openModal(true) }} className={`w-full rounded-[8px] text-[14px] bg-[#5285EC] text-white py-[11px] px-[22px] font-bold`}>+ New Task</button>
